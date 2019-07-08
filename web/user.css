@@ -1,0 +1,59 @@
+body{
+  background: none repeat scroll 0 0 #cce8e4;
+  background-size:100%;
+}
+
+
+h1 {
+  color:white;
+  background-color:#b1c8dc;
+  line-height:80px;
+  font-size:30px;
+  font-weight:700;
+  text-decoration:none;
+  text-indent:32px;
+}
+
+.booktable{
+  background: none repeat scroll 0 0 #FEF9EF;
+  overflow: hidden;
+  width: 980px;
+  margin: 10px auto auto;
+
+}
+
+.novelslist{
+  background: none repeat scroll 0 0 #FEF9EF;
+  overflow: hidden;
+  width: 980px;
+  margin: 10px auto auto;
+}
+
+.divv {
+  display: inline-block;
+  margin-left:80px;
+  width:200px;
+  height:50px;
+}
+
+.abc {
+  margin-left:600px;
+  width:300px;
+  height:50px;
+}
+
+.head{
+  background: none repeat scroll 0 0#88C6E5;
+  height: 40px;
+  overflow: hidden;
+  width: 980px;
+  margin: 10px auto auto;
+}
+
+.user{
+  background: none repeat scroll 0 0 #f5f1e9;
+  height: 61px;
+  width: 980px;
+  margin: auto;
+}
+

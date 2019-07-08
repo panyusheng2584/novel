@@ -1,0 +1,51 @@
+<DOCTYTE html>
+<html>
+  <head>
+    <title>LinkChain</title>
+    <meta = charset = "utf-8">
+    <link rel="stylesheet" type="text/css" href="user.css">
+    <script type="text/javascript" src="novel.js"></script>
+  </head>
+
+  <body>
+    
+    <div class="user">
+      <a id="user" href="/login1.html" style="text-decoration:none">登陆</a> 
+      <a href="books.html" style="text-decoration:none">主页</a>
+      <div class="abc"><input id="in" type="text" onchange="searchBook();"><input name="in" type="button" value="搜索"></div>
+    </div>
+    
+    <div class="booktable">
+      <table>
+        <tr>
+          <th name=>作者</th>
+          <th name=>书名</th>
+          <th name=>类型</th>
+          <th name=>章节</th>
+          <th name=>字数</th>
+          <th name=>点赞</th>
+          <th name=>阅读次数</th>
+        </tr>
+        <tr>
+          <td name="info"></td>
+          <td name="info"></td>
+          <td name="info"></td>
+          <td name="info"></td>
+          <td name="info"></td>
+          <td name="info"></td>
+          <td name="info"></td>
+        </tr>
+      </table>
+      <p>简介</p>
+      <p name="info"></p></br>
+    </div>
+    
+  <script>
+    bookInfo()
+    chapters()
+    userCookie()
+  </script>
+
+  </body>
+
+  </html>
